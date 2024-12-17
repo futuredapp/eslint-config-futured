@@ -1,17 +1,17 @@
-# ESLint Config for Quasar projects
+# ESLint Config for Nest projects
 
-Futured's approach to styling Quasar projects.
+Futured's approach to styling Nest projects.
 
 ## Installation
 
 ```bash
-$ npm install eslint quasar-eslint-config-futured --save-dev
+$ npm install eslint nest-eslint-config-futured --save-dev
 ```
 
 or 
 
 ```bash
-$ yarn add eslint quasar-eslint-config-futured -D
+$ yarn add eslint nest-eslint-config-futured -D
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Add the ESLint configuration to either your `eslint.config.mjs` or `eslint.confi
 ### eslint.config.(m)js
 
 ```js
-import eslintConfig from 'quasar-eslint-config-futured'
+import eslintConfig from 'nest-eslint-config-futured'
 
 export default [
   {

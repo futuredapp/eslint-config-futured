@@ -1,6 +1,6 @@
 {
   "name": "nest-eslint-config-futured",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Futured's linting style for Nest projects",
   "author": "Futured",
   "contributors": [
