@@ -1,6 +1,6 @@
 {
-  "name": "quasar-eslint-config-futured",
-  "version": "1.0.1",
+  "name": "@futuredapp/eslint-config-quasar",
+  "version": "1.0.0",
   "description": "Futured's linting style for Quasar projects",
   "author": "Futured",
   "contributors": [
@@ -8,10 +8,11 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "types": "index.d.ts",
   "type": "module",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "9.14.0",
-    "eslint-config-futured-rules": "^1.0.2",
+    "@futuredapp/eslint-config-rules": "^1.0.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^9.32.0",
     "globals": "^15.13.0",
@@ -19,11 +20,6 @@
     "typescript": "^5.0.2",
     "typescript-eslint": "^8.18.0",
     "vue-eslint-parser": "^9.4.3"
-  },
-  "engines": {
-    "node": "^18 || ^16 || ^14.19",
-    "npm": ">= 6.13.4",
-    "yarn": ">= 1.21.1"
   },
   "peerDependencies": {
     "eslint": ">= 9.14.0"

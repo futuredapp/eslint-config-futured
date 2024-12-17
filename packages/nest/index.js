@@ -1,7 +1,7 @@
 import typescriptEslint from 'typescript-eslint'
 import globals from 'globals'
 import prettier from 'eslint-config-prettier'
-import rules from 'eslint-config-futured-rules'
+import rules from '@futuredapp/eslint-config-rules'
 
 export default [
     prettier,
@@ -19,7 +19,7 @@ export default [
     },
     ...typescriptEslint.configs.recommended,
     {
-        files: ['**/*.{ts,tsx,vue}'],
+        files: ['**/*.ts'],
         languageOptions: {
             parser: typescriptEslint.parser,
             parserOptions: {

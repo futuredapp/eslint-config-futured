@@ -6,9 +6,9 @@ export default {
         'prefer-const': 'error',
         'comma-dangle': ['error', 'always-multiline'],
         'object-curly-spacing': ['error', 'always'],
-        'space-before-function-paren': ['error', 'always'],
         'prefer-promise-reject-errors': 'off',
         'no-extra-boolean-cast': 'off',
+        'space-before-function-paren': ['error', { 'anonymous': 'always', 'named': 'never', 'asyncArrow': 'always' }],
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     }
 }

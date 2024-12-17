@@ -1,6 +1,6 @@
 {
-  "name": "nest-eslint-config-futured",
-  "version": "1.0.1",
+  "name": "@futuredapp/eslint-config-nest",
+  "version": "1.0.0",
   "description": "Futured's linting style for Nest projects",
   "author": "Futured",
   "contributors": [
@@ -8,20 +8,16 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "types": "index.d.ts",
   "type": "module",
-  "devDependencies": {
-    "eslint": "9.14.0",
-    "eslint-config-futured-rules": "^1.0.2",
+  "dependencies": {
+    "eslint": "^9.17.0",
+    "@futuredapp/eslint-config-rules": "^1.0.0",
     "eslint-config-prettier": "^8.1.0",
     "globals": "^15.13.0",
     "prettier": "^2.5.1",
     "typescript": "^5.0.2",
     "typescript-eslint": "^8.18.0"
-  },
-  "engines": {
-    "node": "^18 || ^16 || ^14.19",
-    "npm": ">= 6.13.4",
-    "yarn": ">= 1.21.1"
   },
   "peerDependencies": {
     "eslint": ">= 9.14.0"

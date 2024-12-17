@@ -3,7 +3,7 @@ import vue from 'eslint-plugin-vue'
 import vueParser from 'vue-eslint-parser'
 import globals from 'globals'
 import prettier from 'eslint-config-prettier'
-import rules from 'eslint-config-futured-rules'
+import rules from '@futuredapp/eslint-config-rules'
 
 export default [
     prettier,

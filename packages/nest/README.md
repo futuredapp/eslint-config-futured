@@ -5,13 +5,13 @@ Futured's approach to styling Nest projects.
 ## Installation
 
 ```bash
-$ npm install eslint nest-eslint-config-futured --save-dev
+$ npm install @futuredapp/eslint-config-nest --save-dev
 ```
 
 or 
 
 ```bash
-$ yarn add eslint nest-eslint-config-futured -D
+$ yarn add @futuredapp/eslint-config-nest -D
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Add the ESLint configuration to either your `eslint.config.mjs` or `eslint.confi
 ### eslint.config.(m)js
 
 ```js
-import eslintConfig from 'nest-eslint-config-futured'
+import eslintConfig from '@futuredapp/eslint-config-nest'
 
 export default [
   {

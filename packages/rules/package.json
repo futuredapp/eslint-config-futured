@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-futured-rules",
-  "version": "1.0.2",
+  "name": "@futuredapp/eslint-config-rules",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "type": "module",

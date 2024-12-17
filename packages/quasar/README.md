@@ -5,13 +5,13 @@ Futured's approach to styling Quasar projects.
 ## Installation
 
 ```bash
-$ npm install eslint quasar-eslint-config-futured --save-dev
+$ npm install @futuredapp/eslint-config-quasar --save-dev
 ```
 
 or 
 
 ```bash
-$ yarn add eslint quasar-eslint-config-futured -D
+$ yarn add @futuredapp/eslint-config-quasar -D
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Add the ESLint configuration to either your `eslint.config.mjs` or `eslint.confi
 ### eslint.config.(m)js
 
 ```js
-import eslintConfig from 'quasar-eslint-config-futured'
+import eslintConfig from '@futuredapp/eslint-config-quasar'
 
 export default [
   {
