@@ -1,0 +1,10 @@
+{
+  "name": "eslint-config-futured-rules",
+  "version": "1.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "prepare": "echo 'Rules package for ESLint config'"
+  }
+}
