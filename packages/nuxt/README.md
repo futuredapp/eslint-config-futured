@@ -8,23 +8,31 @@ Futured's approach to styling Nuxt projects.
 $ npm install @futuredapp/eslint-config-nuxt --save-dev
 ```
 
-or 
+or
 
 ```bash
 $ yarn add @futuredapp/eslint-config-nuxt -D
 ```
 
+or
+
+```bash
+$ pnpm add @futuredapp/eslint-config-nuxt -D
+```
+
 ## Usage
 
-Add the ESLint configuration to `eslint.config.js`:
+Add the ESLint configuration to `eslint.config.mjs`:
 
-### eslint.config.js
+### eslint.config.mjs
 
 ```js
-import { createConfigForNuxt } from '@nuxt/eslint-config'
-import eslintConfig from '@futuredapp/eslint-config-nuxt'
+import futuredNuxt from '@futuredapp/eslint-config-nuxt'
+import withNuxt from './.nuxt/eslint.config.mjs'
 
-export default createConfigForNuxt().append(...eslintConfig)
+export default withNuxt(
+  ...futuredNuxt
+)
 ```
 
 ## WebStorm
