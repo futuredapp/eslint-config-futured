@@ -6,8 +6,9 @@ Futured's approach to JavaScript styling combines both the ESLint rules and Pret
 
 This monorepo contains styling guides for:
 
+* [Nuxt](./packages/nuxt)
 * [Quasar](./packages/quasar)
-* [Nest](./packages/___nest)
+* [Nest](./packages/nest)
 
 ## Plugins and Extensions
 

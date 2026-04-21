@@ -8,7 +8,7 @@ export default [
     {
         files: ['**/*.{js,mjs,ts}'],
         languageOptions: {
-            ecmaVersion: 2021,
+            ecmaVersion: 'latest',
             sourceType: 'module',
             globals: {
                 ...globals.node,
@@ -23,7 +23,7 @@ export default [
         languageOptions: {
             parser: typescriptEslint.parser,
             parserOptions: {
-                project: './tsconfig.json',
+                projectService: true,
             },
         },
         ...rules.typescript,

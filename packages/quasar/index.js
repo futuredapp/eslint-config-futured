@@ -10,7 +10,7 @@ export default [
     {
         files: ['**/*.{js,mjs,ts,jsx,tsx,vue}'],
         languageOptions: {
-            ecmaVersion: 2021,
+            ecmaVersion: 'latest',
             sourceType: 'module',
             globals: {
                 ...globals.node,
@@ -36,7 +36,7 @@ export default [
         languageOptions: {
             parser: typescriptEslint.parser,
             parserOptions: {
-                project: './tsconfig.json',
+                projectService: true,
             },
         },
         ...rules.typescript,
@@ -52,8 +52,8 @@ export default [
             parserOptions: {
                 extraFileExtensions: ['.vue'],
                 parser: typescriptEslint.parser,
-                project: './tsconfig.json',
-                ecmaVersion: 2021,
+                projectService: true,
+                ecmaVersion: 'latest',
                 sourceType: 'module',
             },
         },
