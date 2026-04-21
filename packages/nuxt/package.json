@@ -1,6 +1,6 @@
 {
   "name": "@futuredapp/eslint-config-nuxt",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Futured's linting style for Nuxt projects",
   "license": "MIT",
   "author": "Futured",
