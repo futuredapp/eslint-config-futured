@@ -10,5 +10,17 @@ export default {
         'no-extra-boolean-cast': 'off',
         'space-before-function-paren': ['error', { 'anonymous': 'always', 'named': 'never', 'asyncArrow': 'always' }],
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+        'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
+        'no-alert': 'error',
+        'no-eval': 'error',
+        'no-implied-eval': 'error',
+        'require-await': 'error',
+        'no-shadow': 'error',
+        'no-undef': 'error',
+        'no-unreachable': 'error',
+        'no-var': 'error',
+        'no-constant-condition': 'error',
+        'no-unused-expressions': 'error',
+        'no-unused-labels': 'error',
     }
 }
