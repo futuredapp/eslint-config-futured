@@ -502,10 +502,10 @@ path-key@^3.1.0:
   resolved "https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz"
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
 
-pnpm@^10.28.2:
-  version "10.28.2"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-10.28.2.tgz#ca14ef85043bcf001d0ba152c8629d9fac7fb799"
-  integrity sha512-QYcvA3rSL3NI47Heu69+hnz9RI8nJtnPdMCPGVB8MdLI56EVJbmD/rwt9kC1Q43uYCPrsfhO1DzC1lTSvDJiZA==
+pnpm@^10.34.5:
+  version "10.34.5"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-10.34.5.tgz#6a91127a7f2ca72fe53bb9ff54883e0c75b22f17"
+  integrity sha512-pO4F8vc2WCVb1qiYWcBlpFwopX2u+uLIk6Fo7itzFow3uR6D5X6mdlStA/AwMXRkMOi84442LgQmBfuKvIAZLg==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
