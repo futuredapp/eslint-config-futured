@@ -54,7 +54,14 @@ export default [
                 process: 'readonly',
             },
         },
-        rules: rules.core.rules,
+        rules: {
+            ...rules.core.rules,
+            // Trailing commas are left to Prettier in Nuxt projects: the core rule
+            // from @futuredapp/eslint-config-rules and the @stylistic one Nuxt enables
+            // both report on them, so turn the pair off here (other configs keep them)
+            'comma-dangle': 'off',
+            '@stylistic/comma-dangle': 'off',
+        },
     },
     {
         files: ['**/*.{ts,tsx,vue}'],
